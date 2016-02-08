@@ -58,7 +58,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma makr - UITableViewDataSource
+#pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -99,7 +99,7 @@
     return continent.name;
 }
 
-#pragma makr - UITableViewDelegate
+#pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
